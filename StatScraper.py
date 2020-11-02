@@ -213,8 +213,10 @@ class Scraper:
         return defDict
 
     def gather(self, team1, team2):
-        print(team1)
-        print(team2)
+        print()
+        print("Gathering team data for:")
+        print("    " + team1)
+        print("    " + team2)
         a = Abbreviator()
         team1a = a.abbreviate(team1)
         team2a = a.abbreviate(team2)
