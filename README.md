@@ -3,9 +3,9 @@
 ## Overview
 This program simulates an NFL game and generates a faux play-by-play as well as a final score.
 </br>
-To run: 
-  Open Terminal/Command Line at folder with project files </br>
-  Type in *python SimEngine.py*
+To run:</br> 
+  - Open Terminal/Command Line at folder with project files </br>
+  - Type in *python SimEngine.py*</br>
 
 ## Modules
 
