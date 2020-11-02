@@ -25,7 +25,7 @@ Gets player and team data and statistics from provided html files.<br/>
 Use to convert between naming schemes (Abbreviation <--> Full Team Name)<br/>
 
 ## Future Directions and Expected Changes
-  Web-Scraper
-  Post-Game Recap
-  Special Teams Simulation
-  More Advanced Play-by-Play
+  Web-Scraper<br/>
+  Post-Game Recap<br/>
+  Special Teams Simulation<br/>
+  More Advanced Play-by-Play<br/>
