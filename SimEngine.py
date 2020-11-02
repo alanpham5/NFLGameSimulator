@@ -69,7 +69,10 @@ class SimEngine:
                     print(self.stats[self.offense]["qb"]["name"], "pass incomplete.")
                 else:
                     throw = abs(throw)
-                    self.ball += throw
+                    if self.ball + throw < 100:
+                        self.ball += throw
+                    else:
+                        self.ball = 80
                     turnover = True
                     if self.ball > 50:
                         placement = self.defense + " " + str(100 - self.ball) 
@@ -91,7 +94,8 @@ class SimEngine:
                     self.ydsRemaining -= run
                     self.ball += run
                 else:
-                    self.ball += 5
+                    if self.ball < 95:
+                        self.ball += 5
                     turnover = True
                     if (self.ball > 50):
                         placement = self.defense + " " + str(100 - self.ball) 
