@@ -2,6 +2,7 @@
 
 ## Overview
 This program simulates an NFL game and generates a faux play-by-play as well as a final score.</br>
+All real-life data, statistics, and html data were copiled by Pro Football Reference.
 </br>
 To run:</br> 
   - Open Terminal/Command Line at folder with project files </br>
